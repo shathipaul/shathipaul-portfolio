@@ -1,19 +1,19 @@
 import React from 'react';
-import img from '../../assets/images/undraw.png'
+import img from '../../assets/images/c.png'
 
 const Contact = () => {
     return (
-        <div id='contact' className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 dark:text-gray-100">
-            <div className="flex flex-col justify-center">
+        <div id='contact' className="transparent grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 dark:text-gray-100">
+            <div className="flex flex-col justify-center ">
                 <div className="space-y-2">
                     <h2 className="text-4xl font-bold leading-tight lg:text-5xl">Let's talk!</h2>
                     <p className="dark:text-gray-400">Vivamus in nisl metus? Phasellus.</p>
-                    {/* <img src={img} alt="" className="" /> */}
+                    <img src={img} alt="" className="w-3/5 lg:-ml-8" />
 
                 </div>
 
             </div>
-            <form novalidate="" className="space-y-6 ng-untouched ng-pristine ng-valid">
+            <form className="space-y-6 ng-untouched ng-pristine ng-valid">
                 <div>
                     <label for="name" className="text-lg">Full name</label>
                     <input id="name" type="text" placeholder="" className="w-full p-3 rounded required:" />

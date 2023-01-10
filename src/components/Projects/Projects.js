@@ -14,12 +14,7 @@ const Projects = () => {
             <div className="-mx-4 flex flex-wrap">
                 <div className="w-full px-4">
                     <div className="mx-auto mb-[60px] max-w-[510px] text-center">
-                        <span className="text-primary mb-2 block text-lg font-semibold">
-                            Our Portfolio
-                        </span>
-                        <h2
-                            className="text-dark mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]"
-                        >
+                        <h2 className="mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]">
                             Our Recent Projects
                         </h2>
                         <p className="text-body-color text-base">
@@ -32,7 +27,7 @@ const Projects = () => {
 
             {/* experiment */}
 
-            <div className='grid grid-cols-3 gap-3 mx-10'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mx-10'>
                 {
                     projects.map(project => <div key={project.id} className="relative mb-12">
                         <div className="overflow-hidden rounded-lg">
@@ -52,13 +47,15 @@ const Projects = () => {
                                 {project.title}
                             </h3>
                             <a href={project.detail}
-                                className="text-body-color hover:bg-primary hover:border-primary inline-block rounded-md border py-3 px-7 text-sm font-semibold transition hover:text-white">
+                                className="btn-outline text-primary hover:bg-primary hover:border-primary inline-block rounded-md border py-3 px-7 text-sm font-semibold transition hover:text-white">
                                 View Details
                             </a>
                         </div>
                     </div>)
                 }
+
             </div>
+            <a href="/" className='btn-outline text-white hover:bg-primary hover:border-primary inline-block rounded-md border py-3 px-7 text-sm font-semibold transition hover:text-white text-center w-2/12'>View All Projects</a>
         </div>
     );
 };
