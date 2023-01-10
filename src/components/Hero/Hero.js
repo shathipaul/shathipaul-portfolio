@@ -4,7 +4,7 @@ import HeroRight from './HeroRight';
 
 const Hero = () => {
     return (
-        <div className="hero absolute-center">
+        <div id='hero' className="hero absolute-center">
             <div className="hero-content flex-col lg:flex-row justify-between">
                 <HeroLeft />
                 <div className='max-w-lg ml-7'>
