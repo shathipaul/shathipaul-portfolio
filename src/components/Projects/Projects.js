@@ -5,13 +5,13 @@ const Projects = () => {
         { id: 1, name: 'xyz', title: 'abc', link: 'https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-02.jpg', detail: 'ghjk' },
         { id: 2, name: 'xyz', title: 'abc', link: 'https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-02.jpg', detail: 'ghjk' },
         { id: 3, name: 'xyz', title: 'abc', link: 'https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-02.jpg', detail: 'ghjk' },
-        { id: 4, name: 'xyz', title: 'abchhhh', link: 'https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-02.jpg', detail: 'ghjk' },
+        { id: 4, name: 'xyz', title: 'abc', link: 'https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-02.jpg', detail: 'ghjk' },
         { id: 5, name: 'xyz', title: 'abc', link: 'https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-02.jpg', detail: 'ghjk' },
         { id: 6, name: 'xyz', title: 'abc', link: 'https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-02.jpg', detail: 'ghjk' },
     ]
     return (
         <div id='projects'>
-            <div className="-mx-4 flex flex-wrap">
+            <div className=" flex flex-wrap">
                 <div className="w-full px-4">
                     <div className="mx-auto mb-[60px] max-w-[510px] text-center">
                         <h2 className="mb-4 text-3xl font-bold sm:text-4xl md:text-[40px]">
@@ -38,7 +38,7 @@ const Projects = () => {
                             />
                         </div>
                         <div
-                            className="relative z-10 mx-7 -mt-20 rounded-lg bg-white py-9 px-3 text-center shadow-lg"
+                            className="relative mx-7 -mt-20 rounded-lg bg-white py-9 px-3 text-center shadow-lg"
                         >
                             <span className="text-primary mb-2 block text-sm font-semibold">
                                 {project.name}

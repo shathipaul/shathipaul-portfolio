@@ -11,14 +11,13 @@ import Skills from './components/Skills/Skills';
 function App() {
   return (
     <>
-
-      <Skills />
-      <Hero />
       <Header />
+      <Hero />
       <About />
+      <Skills />
 
       <Projects />
-      <AllProjects />
+      {/* <AllProjects /> */}
       <Contact />
       <Footer />
     </>
