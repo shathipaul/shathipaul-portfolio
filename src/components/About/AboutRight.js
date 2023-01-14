@@ -12,7 +12,7 @@ const AboutRight = () => {
         { id: 4, src: img3 },
     ]
     return (
-        <div className='flex relative absolute-center h-screen '>
+        <div className='flex relative absolute-center justify-between pt-10'>
             <div className='flex flex-wrap rotate-45'>
                 {
                     jss.map(js => <div className='h-44 w-44 m-1.5 overflow-hidden border-2 rounded-xl -rotate-45 absolute-center'

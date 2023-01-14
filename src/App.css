@@ -9,7 +9,7 @@ body {
 
   /* background: url('https://c4.wallpaperflare.com/wallpaper/126/286/359/abstract-colorful-circle-digital-art-wallpaper-thumb.jpg') no-repeat center; */
   /* background: url('../src/assets/images/Chain\ -\ 25380.mp4') no-repeat center; */
-  background-size: cover;
+  /* background-size: cover; */
   background: linear-gradient(to top, #ffee00d2 0%, #7f6bf1de 100%);
 
   /* background-color: var(--background); */

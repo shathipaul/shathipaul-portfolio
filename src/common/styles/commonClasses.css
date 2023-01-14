@@ -17,6 +17,38 @@
 }
 
 .transparent {
-    background-color: rgba(0, 0, 0, .5);
-    color: #fff;
+    background-color: rgba(0, 0, 0, .4);
+
+}
+
+.javascript {
+    color: #FBE01C;
+}
+
+.react {
+    color: #61DBFB;
+}
+
+.node {
+    color: #479848;
+}
+
+.mongodb {
+    color: #00ED64;
+}
+
+.html {
+    color: #F06529;
+}
+
+.css {
+    color: #2565AE;
+}
+
+.tailwind {
+    color: #36B7F0;
+}
+
+.bootstrap {
+    color: #7A11F3;
 }

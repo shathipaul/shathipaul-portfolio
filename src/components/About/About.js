@@ -5,10 +5,10 @@ import AboutRight from './AboutRight';
 
 const About = () => {
     return (
-        <div id='about' className="hero absolute-center">
-            <div className="hero-content flex-col lg:flex-row justify-between">
+        <div id='about' className="grid lg:grid-cols-2 gap-2 py-6 lg:py-12 absolute-center">
+            <div className="hero-content lg:flex-row justify-between">
                 <AboutLeft />
-                <div className='max-w-lg ml-7'>
+                <div className='max-w-lg ml-7 hidden lg:block'>
                     <AboutRight />
                 </div>
             </div>

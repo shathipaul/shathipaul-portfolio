@@ -10,17 +10,16 @@ import Skills from './components/Skills/Skills';
 
 function App() {
   return (
-    <>
+    <div className='max-w-screen-xl mx-auto px-5'>
       <Header />
       <Hero />
       <About />
       <Skills />
-
       <Projects />
       {/* <AllProjects /> */}
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 
